@@ -1,0 +1,12 @@
+.containerForm {
+    display:block;
+    width: 70%;
+    background-color: lightblue;
+    align-content: center;
+    margin: 0 auto;
+    padding: 1% 5%;
+}
+
+.containerFormE{
+    height: 40px;;
+}
