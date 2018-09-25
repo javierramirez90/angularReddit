@@ -6,9 +6,12 @@
     <input name="title" #newtitle />
   </div>
   <div class="containerFormE">
-    <label for="link" #newlink>Link:</label>
+    <label for="link">Link:</label>
+    <input name="link" #newlink>
   </div>
 
   <button (click)="addArticle(newtitle, newlink)">Submit link</button>
 </form>
-
+<div>
+  <app-article *ngFor="let article of articles" [article]="article"></app-article>
+</div>
